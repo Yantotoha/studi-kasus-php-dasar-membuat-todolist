@@ -11,6 +11,9 @@ require_once "BusineesLogic/removeTodoList.php";
 require_once "View/viewShowTodoList.php";
 require_once "View/viewAddTodoList.php";
 require_once "View/viewRemoveTodoList.php";
+require_once "helper/input.php";
 
 
-echo "todo list" . PHP_EOL;
+echo "Aplikasi Todo list" . PHP_EOL;
+
+viewShowTodoList();
