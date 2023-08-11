@@ -11,7 +11,7 @@ function viewAddTodoList()
   $todo = input("Todo (x untuk batal)");
 
   if ($todo == "x") {
-    return showTodoList($todo);
+    echo "Batal Menambah Todo" . PHP_EOL;
   } else {
     addTodoList($todo);
   }
