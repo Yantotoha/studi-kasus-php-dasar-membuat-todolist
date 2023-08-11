@@ -15,7 +15,7 @@ function viewShowTodoList()
     echo "1. Tambah Todo" . PHP_EOL;
     echo "2. Hapus Todo" . PHP_EOL;
     echo "x. Keluar" . PHP_EOL;
-    $pilihan = input(trim("Pilih"));
+    $pilihan = input("Pilih");
 
     if ($pilihan == "1") {
       viewAddTodoList();

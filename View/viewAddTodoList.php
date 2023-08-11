@@ -11,7 +11,7 @@ function viewAddTodoList()
   $todo = input("Todo (x untuk batal)");
 
   if ($todo == "x") {
-    //batal
+    return showTodoList($todo);
   } else {
     addTodoList($todo);
   }
