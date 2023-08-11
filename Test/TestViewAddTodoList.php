@@ -9,3 +9,6 @@ addTodoList("Budi");
 
 viewAddTodoList();
 showTodoList();
+
+viewAddTodoList();
+showTodoList();
